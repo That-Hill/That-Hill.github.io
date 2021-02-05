@@ -1,7 +1,17 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #f4efe0;
+}
+
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
   margin:0;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -65,15 +75,6 @@ p {
   text-align: center;
 }
 
-.waves {
-  position:relative;
-  width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:150px;
-}
-
 .content {
   position:relative;
   height:20vh;
@@ -121,61 +122,81 @@ p {
 	top:1px;
 }
 
-/* Animation */
-
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+#zoom {
+  transform-origin: center;
+  animation: vanish 4s infinite linear, zoom2 4s infinite cubic-bezier(0.65, 0, 0.35, 1); //easeInOutCubic
 }
-.parallax > use:nth-child(1) {
-  animation-delay: -2s;
-  animation-duration: 7s;
+@keyframes zoom2 {
+  from { transform: scale(1); }
+  to { transform: scale(21.25); }
 }
-.parallax > use:nth-child(2) {
-  animation-delay: -3s;
-  animation-duration: 10s;
+#background {
+  transform-origin: center;
+  animation: vanish 4s infinite linear, zoom1 4s infinite cubic-bezier(0.65, 0, 0.35, 1);;
 }
-.parallax > use:nth-child(3) {
-  animation-delay: -4s;
-  animation-duration: 13s;
+#frame-face {
+  transform-origin: center;
+  animation: zoom1 4s infinite cubic-bezier(0.65, 0, 0.35, 1); //easeInOutCubic
 }
-.parallax > use:nth-child(4) {
-  animation-delay: -5s;
-  animation-duration: 20s;
+#frame-face-small, #_face-clip {
+  transform-origin: center;
+  animation: zoom2 4s infinite cubic-bezier(0.65, 0, 0.35, 1); //easeInOutCubic
 }
-@keyframes move-forever {
-  0% {
-   transform: translate3d(-90px,0,0);
-  }
-  100% {
-    transform: translate3d(85px,0,0);
-  }
+@keyframes zoom1 {
+  from { transform: scale(1); }
+  to { transform: scale(30); }
 }
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-  .content {
-    height:30vh;
-  }
-  h1 {
-    font-size:24px;
-  }
+#window {
+  animation: vanish 4s infinite linear, slide 4s infinite linear;
+}
+@keyframes slide {
+  0%, 20% { transform: translateY(0%); }
+  50%, 100% { transform: translateY(-10%); }
+}
+@keyframes vanish {
+  0%, 40% { opacity: 1; }
+  55%, 100% { opacity: 0; }
+}
+#yacht-second {
+  animation: y2anim 4s infinite linear;
+}
+@keyframes y2anim {
+  0%, 50% { transform: translateX(15%); }
+  100% { transform: translateX(0); }
+}
+#sun-second {
+  animation: sun2anim 4s infinite ease-out;
+}
+@keyframes sun2anim {
+  56% { transform: translate(-10%, 5%); }
+  100% { transform: translate(0, 0); }
+}
+#beach-second {
+  animation: beach2anim 4s infinite cubic-bezier(0.33, 1, 0.68, 1); //easeOutCubic
+}
+@keyframes beach2anim {
+  0%, 45% { transform: translateY(20%);}
+  100% {transform: translateY(0);}
+}
+#house-second {
+  transform-origin: center;
+  animation: house2anim 4s infinite cubic-bezier(0.33, 1, 0.68, 1); //easeOutCubic
+}
+@keyframes house2anim {
+  0%, 50% { transform: translateY(30%) scale(.4);}
+  100% {transform: translateY(0) scale(1);}
+}
+#tree-shadow-second {
+  transform-origin: center;
+  animation: tree2anim 4s infinite cubic-bezier(0.33, 1, 0.68, 1); //easeOutCubic
+}
+@keyframes tree2anim {
+  0%, 55% { transform: translateY(30%) scale(.2);}
+  100% { transform: translateY(0) scale(1); }
 }
 
 /*
-Copyright (c) 2021 by Goodkatz (https://codepen.io/goodkatz/pen/LYPGxQz)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-*/
-
-/*
-Copyright (c) 2021 by David Miranda (https://codepen.io/panphora/pen/OmGLwy)
+Copyright (c) 2021 by ROBaK (https://codepen.io/xlavoc/pen/OJMwPOy)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
