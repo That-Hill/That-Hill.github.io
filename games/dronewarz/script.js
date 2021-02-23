@@ -46,7 +46,7 @@
 				imminentfailurecount -= 1;
 			}
 		}
-		setInterval(imminentfailurecountdown, 5000);
+		setInterval(imminentfailurecountdown, 10000);
 
 		function anouncer() {
 
@@ -748,11 +748,11 @@ window.addEventListener('mouseup', function(e) {
 }, false);
 
 window.addEventListener('touchstart', function(e) {
-	// e.preventDefault();
+	e.preventDefault();
 	mousestart(e.touches[0]);
 }, false);
 window.addEventListener('touchmove', function(e) {
-	// e.preventDefault();
+	e.preventDefault();
 	mousemove(e.touches[0]);
 }, false);
 window.addEventListener('touchend', function(e) {

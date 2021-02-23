@@ -3,14 +3,14 @@
 	canvas {background:white;cursor:none;display:block;}
 
 	nav {
-		font-size: 1.5vw;
+		font-size: 2.5vw;
 	}
 	nav2 {
 		font-size: 1vw;
 	}
 
 	@media screen and (max-width: 500px) {
-    nav { font-size: 4vw; }
+    nav { font-size: 5vw; }
 		nav2 { font-size: 3.5vw; }
 }
 
