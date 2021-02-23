@@ -301,9 +301,9 @@ function enginestep() {
 
 
 		ctx.fillStyle='#ff8800';
-		ctx.fillText("Score: ",60,100);
+		ctx.fillText("Score: ",80,100);
 		ctx.fillStyle='#0088ff';
-		ctx.fillText(score,210,100);
+		ctx.fillText(score,270,100);
 	if (shield) {
 		myx = drx-40;
 		myy = dry;
