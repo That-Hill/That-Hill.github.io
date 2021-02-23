@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Helvetica", "Verdana", "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 h1 {
