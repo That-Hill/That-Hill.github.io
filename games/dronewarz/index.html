@@ -24,14 +24,16 @@
 </head>
 <body>
   <div style="padding-left:2%;padding-top:1%;z-index:99;position:absolute;">
-    <button class="nav" onClick="overboost()" style="background:red;border:solid;border-color:limeGreen;color:white;">OVERBOOST</button>
+    <button type="button" class="nav" onClick="overboost()" style="background:red;border:solid;border-color:limeGreen;color:white;">OVERBOOST</button>
     &nbsp;&nbsp;
-    <a href="../../index.html"><button class="nav2" style="background:cyan;border:solid;border-color:white;color:white;">HOME</button></a>
-    <a href="../../games.html"><button class="nav2" style="background:cyan;border:solid;border-color:white;color:white;">GAMES</button></a>
+    <a href="../../index.html"><button type="button" class="nav2" style="background:cyan;border:solid;border-color:white;color:white;">HOME</button></a>
+    <a href="../../games.html"><button type="button" class="nav2" style="background:cyan;border:solid;border-color:white;color:white;">GAMES</button></a>
     <br />
     <h3 style="color:orange;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;" id="alert"></h3>
     <h1 style="color:red;font-size:4vw;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;" id="catastrophicfailure"></h1>
   </div>
+
+
 <body onresize='_pexresize()'>
 
 	<canvas id='canvas' width=100% height=100%></canvas>
