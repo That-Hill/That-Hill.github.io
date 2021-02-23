@@ -746,16 +746,17 @@ window.addEventListener('mousemove', function(e) {
 window.addEventListener('mouseup', function(e) {
 	mouseend(e);
 }, false);
+
 window.addEventListener('touchstart', function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	mousestart(e.touches[0]);
 }, false);
 window.addEventListener('touchmove', function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	mousemove(e.touches[0]);
 }, false);
 window.addEventListener('touchend', function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	mouseend(e.touches[0]);
 }, false);
 
