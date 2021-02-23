@@ -1,11 +1,11 @@
 "use strict"
 		var stageo = {
-			w:1280,
-			h:500
+			w:window.innerWidth,
+			h:window.innerHeight
 		}
 		var stage = {
-			w:1280,
-			h:500
+			w:window.innerWidth,
+			h:window.innerHeight
 		}
 
 
