@@ -48,7 +48,68 @@
 		}
 		setInterval(imminentfailurecountdown, 5000);
 
+		function anouncer() {
 
+			if (score == 1000) {
+				document.getElementById("anouncement").innerHTML = "KILLER";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+
+			}
+			if (score == 2000) {
+				document.getElementById("anouncement").innerHTML = "DESTRUCTIVE";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+			}
+
+			else if (score == 3000) {
+				document.getElementById("anouncement").innerHTML = "AMAZING";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+			}
+
+			else if (score == 5000) {
+				document.getElementById("anouncement").innerHTML = "PROFESSIONAL";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+			}
+
+			else if (score == 7500) {
+				document.getElementById("anouncement").innerHTML = "OPERATOR";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+			}
+
+			else if (score == 10000) {
+				document.getElementById("anouncement").innerHTML = "INSANITY!";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+			}
+
+			else if (score == 20000) {
+				document.getElementById("anouncement").innerHTML = "RACE DRONE DRIVER";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+			}
+
+			else if (score == 50000) {
+				document.getElementById("anouncement").innerHTML = "YOU HAVE BECOME DEATH";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+		} else {
+			return;
+		}
+
+		};
+		setInterval(anouncer, 500);
 
 
 
