@@ -26,8 +26,38 @@ Be your own boss. Or earn extra cash on the side. It is all possible on That-Hil
   <a href="../../games.html"><button type="button" style="z-index:99;background:violet;border:solid;border-color:black;color:black;">GAMES</button></a>
   &nbsp;
   <a href="./index.html"><button type="button" style="z-index:99;background:orange;border:solid;border-color:black;color:black;">RESET</button></a>
+  <!--
+  &nbsp;
+  <button id="download" type="button" style="z-index:99;background:orange;border:solid;border-color:black;color:black;">DOWNLOAD</button>
+  --->
 <!-- partial:index.partial.html -->
 <header>
+
+
+<!--
+  <script>
+
+        // This SVG data is copied from
+        // http://stackoverflow.com/questions/5433806/convert-embedded-svg-to-png-in-place
+        var dataURL = svgDataURL();
+        // A data URL can also be generated from an existing SVG element.
+        function svgDataURL(svg) {
+          var svgAsXML = (new XMLSerializer).serializeToString(svg);
+          return "data:image/svg+xml," + encodeURIComponent(svgAsXML);
+        }
+
+        function download(){
+          var dl = document.createElement("a");
+          document.body.appendChild(dl); // This line makes it work in Firefox.
+          dl.setAttribute("href", dataURL);
+          dl.setAttribute("download", "Sugar_Skull.svg");
+          dl.click();
+        }
+
+      </script>
+--->
+
+
   <label for="loupe">Choose a color:</label>
 <input type="color" id="loupe">
 </header>
