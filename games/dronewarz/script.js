@@ -295,14 +295,14 @@ function enginestep() {
 
 	ctx.fillRect(0,0,stage.w,stage.h);
 
-		ctx.font = "18px arial";
-		ctx.textAlign = "left";
+		ctx.font = "5vh arial";
+		ctx.textAlign = "center";
 
 
 		ctx.fillStyle='#ff8800';
-		ctx.fillText("Score: ",50,50);
+		ctx.fillText("Score: ",60,100);
 		ctx.fillStyle='#0088ff';
-		ctx.fillText(score,180,50);
+		ctx.fillText(score,210,100);
 	if (shield) {
 		myx = drx-40;
 		myy = dry;

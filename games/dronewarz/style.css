@@ -1,5 +1,18 @@
-body {background:white;margin:0;padding:0}
-	canvas {background:white;cursor:none;display:block}
+	body {background:white;margin:0;padding:0;}
+
+	canvas {background:white;cursor:none;display:block;}
+
+	nav {
+		font-size: 1.5vw;
+	}
+	nav2 {
+		font-size: 1vw;
+	}
+
+	@media (max-width: 500px) {
+    nav { font-size: 3vw; }
+		nav2 { font-size: 2.5vw; }
+}
 
 /*
 	.scanlines {
