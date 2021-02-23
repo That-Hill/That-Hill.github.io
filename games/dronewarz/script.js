@@ -14,7 +14,7 @@
 		var imminentfailurecount = 0;
 
 		function overboost(){
-			if (imminentfailurecount > 3) {
+			if (imminentfailurecount > 2) {
 				score -= 5000;
 				if (score < 0) {
 					score = 0;
