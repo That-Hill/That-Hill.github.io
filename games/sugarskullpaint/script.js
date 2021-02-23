@@ -7,7 +7,14 @@ for( var i = 0; i<paths.length; i++ ) {
   path.addEventListener('click', function() {
     this.style.fill = loupe.value;
   });
-}
+};
+
+/*
+function download(){
+  this.parentElement.appendChild(some-html-element);
+  var sugarSkull = this.parentElement.cloneNode();
+};
+*/
 
 /*
 Copyright (c) 2021 by Dave Rupert (https://codepen.io/davatron5000/pen/aBejJw)
