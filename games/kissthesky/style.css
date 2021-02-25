@@ -3,12 +3,16 @@ body {
   background: #202020;
 }
 
+
 #preview-img {
   position: absolute;
-  top: 48%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 85%;
+  height: 70%;
+}
+
+@media screen and (max-width: 500px) {
   display: none;
 }
 
