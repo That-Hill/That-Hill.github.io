@@ -6,6 +6,7 @@
  * Copyright 2012 Julian Garnier
  */
 
+/*
 var chess = new Chess();
 var currentColor = chess.turn();
 var turn = 0;
@@ -426,7 +427,7 @@ var readyStateCheckInterval = setInterval(function() {
     clearInterval(readyStateCheckInterval);
   }
 }, 3250);
-
+*/
 
 
 
@@ -438,7 +439,7 @@ var readyStateCheckInterval = setInterval(function() {
  * Copyright 2012 Julian Garnier
  */
 
-/*
+
 var chess = new Chess();
 var currentColor = chess.turn();
 var turn = 0;
@@ -867,4 +868,3 @@ var readyStateCheckInterval = setInterval(function() {
     clearInterval(readyStateCheckInterval);
   }
 }, 3250);
-*/
