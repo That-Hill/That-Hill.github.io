@@ -7,6 +7,7 @@ body {
   background: rgb(70, 69, 69);
   */
   background-color: #000000;
+  background-image: "./img/starrysky.png"
 }
 
 h1 {
@@ -605,7 +606,7 @@ p {
    box-shadow: 0 0 50px  rgb(247, 61, 176);
  }
  */
- 
+
  ul {
    display: flex;
    align-items: center;
