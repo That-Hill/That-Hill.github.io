@@ -453,206 +453,210 @@ p {
   }
 }
 
-     .night {
-     }
-     .stars {
-       background: #fff;
 
-       animation: stars 1.7s ease-in-out infinite;
-     }
-     @keyframes stars {
-       0%,
-       40%,
-       100% {
-         transform: scale(0.2);
-       }
-       20% {
-         transform: scale(1);
-       }
-     }
 
-     .star:nth-child(1) {
-       animation-delay: -1.2s;
-       background: yellow;
-       box-shadow: 0 0 50px yellow;
-     }
-     .star:nth-child(2) {
-       animation-delay: -1s;
-       background: rgb(99, 247, 136);
-       box-shadow: 0 0 50px rgb(99, 247, 136);
-     }
-     .star:nth-child(3) {
-       animation-delay: -0.8s;
-       background: rgb(30, 243, 225);
-       box-shadow: 0 0 50px  rgb(30, 243, 225);
-     }
-     .star:nth-child(4) {
-       animation-delay: -0.6s;
-       background: rgb(241, 58, 58);
-       box-shadow: 0 0 50px rgb(241, 58, 58);
-     }
-     .star:nth-child(5) {
-       animation-delay: -0.4s;
-       background: rgb(247, 61, 176);
-       box-shadow: 0 0 50px  rgb(247, 61, 176);
-     }
-     .star:nth-child(6) {
-       animation-delay: -1.2s;
-       background: yellow;
-       box-shadow: 0 0 50px yellow;
-     }
-     .star:nth-child(7) {
-       animation-delay: -1s;
-       background: rgb(99, 247, 136);
-       box-shadow: 0 0 50px rgb(99, 247, 136);
-     }
-     .star:nth-child(8) {
-       animation-delay: -0.8s;
-       background: rgb(30, 243, 225);
-       box-shadow: 0 0 50px  rgb(30, 243, 225);
-     }
-     .star:nth-child(9) {
-       animation-delay: -0.6s;
-       background: rgb(241, 58, 58);
-       box-shadow: 0 0 50px rgb(241, 58, 58);
-     }
-     .star:nth-child(10) {
-       animation-delay: -0.4s;
-       background: rgb(247, 61, 176);
-       box-shadow: 0 0 50px  rgb(247, 61, 176);
-     }
-     .star:nth-child(11) {
-       animation-delay: -1.2s;
-       background: yellow;
-       box-shadow: 0 0 50px yellow;
-     }
-     .star:nth-child(12) {
-       animation-delay: -1s;
-       background: rgb(99, 247, 136);
-       box-shadow: 0 0 50px rgb(99, 247, 136);
-     }
-     .star:nth-child(13) {
-       animation-delay: -0.8s;
-       background: rgb(30, 243, 225);
-       box-shadow: 0 0 50px  rgb(30, 243, 225);
-     }
-     .star:nth-child(14) {
-       animation-delay: -0.6s;
-       background: rgb(241, 58, 58);
-       box-shadow: 0 0 50px rgb(241, 58, 58);
-     }
-     .star:nth-child(15) {
-       animation-delay: -0.4s;
-       background: rgb(247, 61, 176);
-       box-shadow: 0 0 50px  rgb(247, 61, 176);
-     }
-     /*
-     body {
-       background: rgb(70, 69, 69);
-     }
-     ul {
-       position: absolute;
-       top: 50%;
-       left: 50%;
-       display: flex;
-     }
-     ul li {
-       list-style: none;
-       width: 40px;
-       height: 40px;
-       background: #fff;
-       border-radius: 50%;
+ .night {
+ }
+ .stars {
+   background: #fff;
 
-       animation: animate 1.7s ease-in-out infinite;
-     }
-     @keyframes animate {
-       0%,
-       40%,
-       100% {
-         transform: scale(0.2);
-       }
-       20% {
-         transform: scale(1);
-       }
-     }
+   animation: stars 1.7s ease-in-out infinite;
+ }
+ @keyframes stars {
+   0%,
+   40%,
+   100% {
+     transform: scale(0.2);
+   }
+   20% {
+     transform: scale(1);
+   }
+ }
 
-     ul li:nth-child(1) {
-       animation-delay: -1.2s;
-       background: yellow;
-       box-shadow: 0 0 50px yellow;
-     }
-     ul li:nth-child(2) {
-       animation-delay: -1s;
-       background: rgb(99, 247, 136);
-       box-shadow: 0 0 50px rgb(99, 247, 136);
-     }
-     ul li:nth-child(3) {
-       animation-delay: -0.8s;
-       background: rgb(30, 243, 225);
-       box-shadow: 0 0 50px  rgb(30, 243, 225);
-     }
-     ul li:nth-child(4) {
-       animation-delay: -0.6s;
-       background: rgb(241, 58, 58);
-       box-shadow: 0 0 50px rgb(241, 58, 58);
-     }
-     ul li:nth-child(5) {
-       animation-delay: -0.4s;
-       background: rgb(247, 61, 176);
-       box-shadow: 0 0 50px  rgb(247, 61, 176);
-     }
-     */
-     ul {
-       display: flex;
-       align-items: center;
-        width: 20%;
-        margin: auto;
-     }
-     ul li {
-       list-style: none;
-       width: 40px;
-       height: 40px;
-       background: #fff;
-       border-radius: 50%;
+ .star:nth-child(1) {
+   animation-delay: -1.2s;
+   background: yellow;
+   box-shadow: 0 0 50px yellow;
+ }
+ .star:nth-child(2) {
+   animation-delay: -1s;
+   background: rgb(99, 247, 136);
+   box-shadow: 0 0 50px rgb(99, 247, 136);
+ }
+ .star:nth-child(3) {
+   animation-delay: -0.8s;
+   background: rgb(30, 243, 225);
+   box-shadow: 0 0 50px  rgb(30, 243, 225);
+ }
+ .star:nth-child(4) {
+   animation-delay: -0.6s;
+   background: rgb(241, 58, 58);
+   box-shadow: 0 0 50px rgb(241, 58, 58);
+ }
+ .star:nth-child(5) {
+   animation-delay: -0.4s;
+   background: rgb(247, 61, 176);
+   box-shadow: 0 0 50px  rgb(247, 61, 176);
+ }
+ .star:nth-child(6) {
+   animation-delay: -1.2s;
+   background: yellow;
+   box-shadow: 0 0 50px yellow;
+ }
+ .star:nth-child(7) {
+   animation-delay: -1s;
+   background: rgb(99, 247, 136);
+   box-shadow: 0 0 50px rgb(99, 247, 136);
+ }
+ .star:nth-child(8) {
+   animation-delay: -0.8s;
+   background: rgb(30, 243, 225);
+   box-shadow: 0 0 50px  rgb(30, 243, 225);
+ }
+ .star:nth-child(9) {
+   animation-delay: -0.6s;
+   background: rgb(241, 58, 58);
+   box-shadow: 0 0 50px rgb(241, 58, 58);
+ }
+ .star:nth-child(10) {
+   animation-delay: -0.4s;
+   background: rgb(247, 61, 176);
+   box-shadow: 0 0 50px  rgb(247, 61, 176);
+ }
+ .star:nth-child(11) {
+   animation-delay: -1.2s;
+   background: yellow;
+   box-shadow: 0 0 50px yellow;
+ }
+ .star:nth-child(12) {
+   animation-delay: -1s;
+   background: rgb(99, 247, 136);
+   box-shadow: 0 0 50px rgb(99, 247, 136);
+ }
+ .star:nth-child(13) {
+   animation-delay: -0.8s;
+   background: rgb(30, 243, 225);
+   box-shadow: 0 0 50px  rgb(30, 243, 225);
+ }
+ .star:nth-child(14) {
+   animation-delay: -0.6s;
+   background: rgb(241, 58, 58);
+   box-shadow: 0 0 50px rgb(241, 58, 58);
+ }
+ .star:nth-child(15) {
+   animation-delay: -0.4s;
+   background: rgb(247, 61, 176);
+   box-shadow: 0 0 50px  rgb(247, 61, 176);
+ }
 
-       animation: animate 1.7s ease-in-out infinite;
-     }
-     @keyframes animate {
-       0%,
-       40%,
-       100% {
-         transform: scale(0.2);
-       }
-       20% {
-         transform: scale(1);
-       }
-     }
+ /*
+ body {
+   background: rgb(70, 69, 69);
+ }
+ ul {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   display: flex;
+ }
+ ul li {
+   list-style: none;
+   width: 40px;
+   height: 40px;
+   background: #fff;
+   border-radius: 50%;
 
-     ul li:nth-child(1) {
-       animation-delay: -1.2s;
-       background: yellow;
-       box-shadow: 0 0 50px yellow;
-     }
-     ul li:nth-child(2) {
-       animation-delay: -1s;
-       background: rgb(99, 247, 136);
-       box-shadow: 0 0 50px rgb(99, 247, 136);
-     }
-     ul li:nth-child(3) {
-       animation-delay: -0.8s;
-       background: rgb(30, 243, 225);
-       box-shadow: 0 0 50px  rgb(30, 243, 225);
-     }
-     ul li:nth-child(4) {
-       animation-delay: -0.6s;
-       background: rgb(241, 58, 58);
-       box-shadow: 0 0 50px rgb(241, 58, 58);
-     }
-     ul li:nth-child(5) {
-       animation-delay: -0.4s;
-       background: rgb(247, 61, 176);
-       box-shadow: 0 0 50px  rgb(247, 61, 176);
-     }
+   animation: animate 1.7s ease-in-out infinite;
+ }
+ @keyframes animate {
+   0%,
+   40%,
+   100% {
+     transform: scale(0.2);
+   }
+   20% {
+     transform: scale(1);
+   }
+ }
+
+ ul li:nth-child(1) {
+   animation-delay: -1.2s;
+   background: yellow;
+   box-shadow: 0 0 50px yellow;
+ }
+ ul li:nth-child(2) {
+   animation-delay: -1s;
+   background: rgb(99, 247, 136);
+   box-shadow: 0 0 50px rgb(99, 247, 136);
+ }
+ ul li:nth-child(3) {
+   animation-delay: -0.8s;
+   background: rgb(30, 243, 225);
+   box-shadow: 0 0 50px  rgb(30, 243, 225);
+ }
+ ul li:nth-child(4) {
+   animation-delay: -0.6s;
+   background: rgb(241, 58, 58);
+   box-shadow: 0 0 50px rgb(241, 58, 58);
+ }
+ ul li:nth-child(5) {
+   animation-delay: -0.4s;
+   background: rgb(247, 61, 176);
+   box-shadow: 0 0 50px  rgb(247, 61, 176);
+ }
+ */
+ 
+ ul {
+   display: flex;
+   align-items: center;
+    width: 20%;
+    margin: auto;
+ }
+ ul li {
+   list-style: none;
+   width: 40px;
+   height: 40px;
+   background: #fff;
+   border-radius: 50%;
+
+   animation: animate 1.7s ease-in-out infinite;
+ }
+ @keyframes animate {
+   0%,
+   40%,
+   100% {
+     transform: scale(0.2);
+   }
+   20% {
+     transform: scale(1);
+   }
+ }
+
+ ul li:nth-child(1) {
+   animation-delay: -1.2s;
+   background: yellow;
+   box-shadow: 0 0 50px yellow;
+ }
+ ul li:nth-child(2) {
+   animation-delay: -1s;
+   background: rgb(99, 247, 136);
+   box-shadow: 0 0 50px rgb(99, 247, 136);
+ }
+ ul li:nth-child(3) {
+   animation-delay: -0.8s;
+   background: rgb(30, 243, 225);
+   box-shadow: 0 0 50px  rgb(30, 243, 225);
+ }
+ ul li:nth-child(4) {
+   animation-delay: -0.6s;
+   background: rgb(241, 58, 58);
+   box-shadow: 0 0 50px rgb(241, 58, 58);
+ }
+ ul li:nth-child(5) {
+   animation-delay: -0.4s;
+   background: rgb(247, 61, 176);
+   box-shadow: 0 0 50px  rgb(247, 61, 176);
+ }
 
 /*
 Glowing Star Effect
