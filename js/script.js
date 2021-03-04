@@ -123,6 +123,24 @@ var eventsThemeRel = new ThemeRelationship(
 	$("main")
 );
 
+
+
+function newbutton() {
+    var div = document.querySelector('.m');
+    var input = document.querySelector('#get_url');
+    // ... make button with the given url
+
+    var dom = '<a href="' + input.value + '" target="_blank">';
+    dom += '<input type="button" class="menu" value="new button"></a>';
+
+    div.innerHTML += dom;
+}
+
+/*
+Add Buttons
+Source: https://stackoverflow.com/questions/47626005/allow-user-to-add-buttons-to-html-page
+*/
+
 /*
 Copyright (c) 2021 by Randy (https://codepen.io/specificity/pen/MEoOwv)
 
