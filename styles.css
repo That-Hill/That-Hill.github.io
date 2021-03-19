@@ -60,6 +60,16 @@ p {
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
+
+.thathilllogo {
+  width: 52%;
+}
+@media only screen and (max-width: 700px) {
+  .thathillogo {
+    width: 100%;
+  }
+}
+
 .logo {
   width:50px;
   fill:white;
