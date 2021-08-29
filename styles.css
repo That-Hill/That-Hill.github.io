@@ -34,6 +34,9 @@ p {
   display: inline-block;
   vertical-align: middle;
 }
+label {
+  font-family: 'Lato', sans-serif;
+}
 
 .indeximg {
   width: 65%;

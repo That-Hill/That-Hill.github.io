@@ -1,9 +1,11 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+/*
 body {
   background: #1e2440;
   color: #f2efe2;
   font-size: 16px;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Shadows Into Light', cursive;
+ font-family: 'Lato', sans-serif;
 }
 
 p {
@@ -13,16 +15,17 @@ p {
 a {
   text-decoration: none;
 }
+*/
 
 .d474designs {
-  margin-bottom: 1vw;
+  display: none;
+  margin-bottom: 3px;
 }
 
 .button {
   background-color: limeGreen;
   border: orange;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -30,22 +33,22 @@ a {
 }
 
 .container {
-  position: relative;
+  position: fixed;
   border: 1px solid limeGreen;
-  width: 95%;
-  max-width: 95%;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
-  border-radius: 0.1rem;
   background: white;
   /* padding: 0.2rem 1rem; */
   color: #1e2440;
   overflow: hidden;
   /* margin-top: 10vh; */
+  bottom: 0px;
+
 }
 
 .text-box {
-  border-bottom: 7px dotted #1e2440;
-  max-height: 12vh;
+  max-height: 3px;
   overflow-y: scroll;
 }
 
@@ -59,10 +62,9 @@ a {
 
 .fa {
   color: white;
-  background: #1e2440;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   border-radius: 50%;
   cursor: pointer;
-  margin-top: 1rem;
   /* float: right; */
   width: 2rem;
   height: 2rem;
@@ -73,12 +75,11 @@ a {
 
 @media (max-width: 768px) {
   .container {
-    width: 95%;
-    max-width: 95%;
+    width: 100%;
   }
 
   .text-box {
-    max-height: 12vh;
+    max-height: 5vh;
   }
 
   select {
@@ -97,19 +98,17 @@ a {
 select {
   width: 22vw;
   padding: 5px 35px 5px 5px;
-  font-size: 1rem;
+  font-size: 0.5rem;
   border: 1px solid #ccc;
-  height: 34px;
   -webkit-appearance: none;
   -moz-appearance: none;
   background: url('../img/speechRecognition/blek pentha.png') 96% / 11% no-repeat #eee;
-  font-family: 'Kaushan Script', cursive;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Lato', sans-serif;
   outline: none;
   cursor: pointer;
   /* position: absolute; */
-  bottom: 1vh;
   border-radius: 1rem;
+  margin-bottom: 3px;
 }
 
 select:focus, select:active {
@@ -122,8 +121,7 @@ select:focus, select:active {
 
 label {
   float: left;
-  width: 10%;
-  line-height: 1.5;
+  width: 9%;
 }
 
 .rate-value, .pitch-value {
@@ -134,5 +132,5 @@ label {
 
 #rate, #pitch {
   float: none;
-  width: 81%;
+  width: 89%;
 }
