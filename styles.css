@@ -36,12 +36,12 @@ p {
 }
 
 .indeximg {
-  width: 35%;
+  width: 65%;
 }
 
 @media only screen and (max-width: 700px) {
   .indeximg {
-    width: 90%;
+    width: 98%;
   }
 }
 

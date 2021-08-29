@@ -1,0 +1,138 @@
+body {
+  background: #1e2440;
+  color: #f2efe2;
+  font-size: 16px;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d474designs {
+  margin-bottom: 1vw;
+}
+
+.button {
+  background-color: limeGreen;
+  border: orange;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.container {
+  position: relative;
+  border: 1px solid limeGreen;
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  background: white;
+  /* padding: 0.2rem 1rem; */
+  color: #1e2440;
+  overflow: hidden;
+  /* margin-top: 10vh; */
+}
+
+.text-box {
+  border-bottom: 7px dotted #1e2440;
+  max-height: 12vh;
+  overflow-y: scroll;
+}
+
+.text-box:focus {
+  outline: none;
+}
+
+.text-box p {
+  margin: 0px !important;
+}
+
+.fa {
+  color: white;
+  background: #1e2440;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 1rem;
+  /* float: right; */
+  width: 2rem;
+  height: 2rem;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    max-width: 95%;
+  }
+
+  .text-box {
+    max-height: 12vh;
+  }
+
+  select {
+    width: 70vw !important;
+    padding: 3px 35px 5px 5px;
+    background: url('../img/speechRecognition/blek pentha.png') 96% / 9% no-repeat #eee !important;
+  }
+}
+
+@media (width: 768px) {
+  select {
+    background: url('../img/speechRecognition/blek pentha.png') 96% / 7% no-repeat #eee !important;
+  }
+}
+
+select {
+  width: 22vw;
+  padding: 5px 35px 5px 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('../img/speechRecognition/blek pentha.png') 96% / 11% no-repeat #eee;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  outline: none;
+  cursor: pointer;
+  /* position: absolute; */
+  bottom: 1vh;
+  border-radius: 1rem;
+}
+
+select:focus, select:active {
+  outline: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+label {
+  float: left;
+  width: 10%;
+  line-height: 1.5;
+}
+
+.rate-value, .pitch-value {
+  float: none;
+  width: 5%;
+  line-height: 1.5;
+}
+
+#rate, #pitch {
+  float: none;
+  width: 81%;
+}
