@@ -56,11 +56,15 @@
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 
+			}
+
 			else if (score == 1000) {
 				document.getElementById("anouncement").innerHTML = "KILLER";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
+
+			}
 
 			else if (score == 1500) {
 				document.getElementById("anouncement").innerHTML = "TO THE MOON!!!";
