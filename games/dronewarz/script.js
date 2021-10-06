@@ -56,20 +56,21 @@
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 
-			if (score == 1000) {
+			else if (score == 1000) {
 				document.getElementById("anouncement").innerHTML = "KILLER";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 
-			if (score == 1500) {
+			else if (score == 1500) {
 				document.getElementById("anouncement").innerHTML = "TO THE MOON!!!";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 
 			}
-			if (score == 2000) {
+
+			else if (score == 2000) {
 				document.getElementById("anouncement").innerHTML = "DESTRUCTIVE";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
@@ -83,7 +84,7 @@
 			}, 7000);
 			}
 
-			if (score == 4000) {
+			else if (score == 4000) {
 				document.getElementById("anouncement").innerHTML = "AWESOME!";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
@@ -110,7 +111,7 @@
 			}, 7000);
 			}
 
-			if (score == 15000) {
+			else if (score == 15000) {
 				document.getElementById("anouncement").innerHTML = "EPIC";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
@@ -123,7 +124,7 @@
 			}, 7000);
 			}
 
-			if (score == 30000) {
+			else if (score == 30000) {
 				document.getElementById("anouncement").innerHTML = "GUARDIAN OF THE GALAXY";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
@@ -535,8 +536,6 @@ function enginestep() {
 		ctx.lineTo(bullets[b].x-5,bullets[b].y+5);
 		// ctx.fillRect(bullets[b].x,bullets[b].y,bullets[b].w,bullets[b].h);
 		ctx.closePath();
-
-
 
 
 		ctx.fill();
