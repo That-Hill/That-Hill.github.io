@@ -50,8 +50,20 @@
 
 		function anouncer() {
 
+			if (score == 500) {
+				document.getElementById("anouncement").innerHTML = "SUCH WOW";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+
 			if (score == 1000) {
 				document.getElementById("anouncement").innerHTML = "KILLER";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+
+			if (score == 1500) {
+				document.getElementById("anouncement").innerHTML = "TO THE MOON!!!";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
@@ -70,6 +82,12 @@
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 			}
+
+			if (score == 4000) {
+				document.getElementById("anouncement").innerHTML = "AWESOME!";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
 
 			else if (score == 5000) {
 				document.getElementById("anouncement").innerHTML = "PROFESSIONAL";
@@ -92,12 +110,24 @@
 			}, 7000);
 			}
 
+			if (score == 15000) {
+				document.getElementById("anouncement").innerHTML = "EPIC";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
+
 			else if (score == 20000) {
 				document.getElementById("anouncement").innerHTML = "RACE DRONE DRIVER";
 			setTimeout(function(){
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 			}
+
+			if (score == 30000) {
+				document.getElementById("anouncement").innerHTML = "GUARDIAN OF THE GALAXY";
+			setTimeout(function(){
+				document.getElementById("anouncement").innerHTML = "";
+			}, 7000);
 
 			else if (score == 50000) {
 				document.getElementById("anouncement").innerHTML = "YOU HAVE BECOME DEATH";
@@ -286,6 +316,7 @@ var score = 0;
 var glitch = false;
 var gt = 0;
 
+
 function droneBody(fill,drx,dry,fill2) {
 
 	ctx.fillStyle = fill;
@@ -339,6 +370,8 @@ function droneBody(fill,drx,dry,fill2) {
 	ctx.fill();
 	}
 }
+
+
 function enginestep() {
 	// backx -=2;
 	// if (backx<-1280) {
@@ -350,10 +383,15 @@ function enginestep() {
 	// ctx.fillStyle = 'rgba(0,0,0,1)';
 	// ctx.fillStyle = '#ffffff';
 
+	/*
 	var my_gradient = ctx.createLinearGradient(0, 0, 1600, 0);
 	my_gradient.addColorStop(1, "black");
 	my_gradient.addColorStop(0, "white");
 	ctx.fillStyle = my_gradient;
+	*/
+
+	ctx.fillStyle = '#ffffff';
+	ctx.fillRect(0,0,stage.w,stage.h);
 
 	ctx.fillRect(0,0,stage.w,stage.h);
 
@@ -486,7 +524,7 @@ function enginestep() {
 	for (var b=0;b<bullets.length;b++) {
 		// bullets[b].vx += 0.2;
 		bullets[b].x += bullets[b].vx*dtime/15;
-		ctx.fillStyle = '#b95b43';
+		ctx.fillStyle = '#10D1BF';
 
 		ctx.beginPath();
 		ctx.moveTo(bullets[b].x,bullets[b].y);
