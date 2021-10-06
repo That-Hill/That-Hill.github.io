@@ -94,6 +94,8 @@
 				document.getElementById("anouncement").innerHTML = "";
 			}, 7000);
 
+			}
+
 			else if (score == 5000) {
 				document.getElementById("anouncement").innerHTML = "PROFESSIONAL";
 			setTimeout(function(){
