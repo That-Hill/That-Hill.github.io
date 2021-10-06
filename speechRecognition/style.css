@@ -61,7 +61,11 @@ a {
 
 .fa {
   color: white;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  background: linear-gradient(
+    60deg,
+    rgba(84, 58, 183, 1) 0%,
+    rgba(0, 172, 193, 1) 100%
+  );
   border-radius: 50%;
   cursor: pointer;
   /* float: right; */
@@ -84,13 +88,38 @@ a {
   select {
     width: 70vw !important;
     padding: 3px 35px 5px 5px;
-    background: url('../img/speechRecognition/blek pentha.png') 96% / 9% no-repeat #eee !important;
+    background: url("../img/speechRecognition/blek pentha.png") 96% / 9%
+      no-repeat #eee !important;
   }
 }
 
-@media (width: 768px) {
+@media (min-width: 768px) {
   select {
-    background: url('../img/speechRecognition/blek pentha.png') 96% / 7% no-repeat #eee !important;
+    background: url("../img/speechRecognition/blek pentha.png") 96% / 7%
+      no-repeat #eee !important;
+  }
+
+  .fa {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  label {
+    padding-top: 3px;
+    font-size: 1.5vw;
+    vertical-align: bottom;
+  }
+
+  input#rate {
+    max-height: 5px;
+  }
+
+  input#pitch {
+    max-height: 5px;
+  }
+
+  select#voiceSelect {
+    padding-top: 3px;
   }
 }
 
@@ -101,8 +130,9 @@ select {
   border: 1px solid #ccc;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background: url('../img/speechRecognition/blek pentha.png') 96% / 11% no-repeat #eee;
-  font-family: 'Lato', sans-serif;
+  background: url("../img/speechRecognition/blek pentha.png") 96% / 11%
+    no-repeat #eee;
+  font-family: "Lato", sans-serif;
   outline: none;
   cursor: pointer;
   /* position: absolute; */
@@ -110,7 +140,8 @@ select {
   margin-bottom: 3px;
 }
 
-select:focus, select:active {
+select:focus,
+select:active {
   outline: none;
 }
 
@@ -123,13 +154,15 @@ label {
   width: 9%;
 }
 
-.rate-value, .pitch-value {
+.rate-value,
+.pitch-value {
   float: none;
   width: 5%;
   line-height: 1.5;
 }
 
-#rate, #pitch {
+#rate,
+#pitch {
   float: none;
   width: 89%;
 }
