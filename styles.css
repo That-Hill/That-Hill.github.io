@@ -89,11 +89,13 @@ label {
   width: 45%;
 }
 
+/*
 @media only screen and (max-width: 700px) {
   .indeximg {
     width: 98%;
   }
 }
+*/
 
 .row {
   justify-content: center;
