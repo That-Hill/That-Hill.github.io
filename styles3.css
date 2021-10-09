@@ -81,6 +81,11 @@ p {
 }
 
 .indeximg {
+  width: 98%;
+}
+
+/*
+.indeximg {
   width: 45%;
 }
 
@@ -89,6 +94,7 @@ p {
     width: 98%;
   }
 }
+*/
 
 .row {
   justify-content: center;
