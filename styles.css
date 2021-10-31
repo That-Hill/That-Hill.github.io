@@ -86,11 +86,6 @@ label {
 }
 
 .indeximg {
-  width: 98%;
-}
-
-/*
-.indeximg {
   width: 45%;
 }
 
@@ -99,7 +94,6 @@ label {
     width: 98%;
   }
 }
-*/
 
 .row {
   justify-content: center;
