@@ -12,14 +12,6 @@ body {
   scrollbar-width: thin;
 }
 
-.secrets {
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: #fff;
-  opacity: 80%;
-  overflow: hidden;
-}
-
 #button {
   display: inline-block;
   background-color: #ff9800;
@@ -91,6 +83,14 @@ p {
 }
 label {
   font-family: "Lato", sans-serif;
+}
+
+.secrets {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #fff;
+  opacity: 80%;
+  overflow: hidden;
 }
 
 .indeximg {
