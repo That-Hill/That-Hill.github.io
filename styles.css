@@ -85,14 +85,6 @@ label {
   font-family: "Lato", sans-serif;
 }
 
-.secrets {
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: #fff;
-  opacity: 80%;
-  overflow: hidden;
-}
-
 .indeximg {
   width: 45%;
 }
