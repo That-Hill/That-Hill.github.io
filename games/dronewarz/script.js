@@ -360,9 +360,9 @@ function enginestep() {
   ctx.textAlign = "center";
 
   ctx.fillStyle = "#ff8800";
-  ctx.fillText("Score: ", 80, 100);
+  ctx.fillText("Score: ", 70, 100);
   ctx.fillStyle = "#0088ff";
-  ctx.fillText(score, 270, 100);
+  ctx.fillText(score, 260, 100);
   if (shield) {
     myx = drx - 40;
     myy = dry;
