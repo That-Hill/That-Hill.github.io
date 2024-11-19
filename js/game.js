@@ -1,14 +1,14 @@
-var btn = $("#button2");
+var btn2 = $("#button2");
 
 $(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
-    btn.addClass("show");
+    btn2.addClass("show2");
   } else {
-    btn.removeClass("show");
+    btn2.removeClass("show2");
   }
 });
 
-btn.on("click", function (e) {
+btn2.on("click", function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: $("#app").offset().top }, "300");
 });
