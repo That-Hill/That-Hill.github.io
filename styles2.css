@@ -21,11 +21,15 @@ body {
   }
   .mobile {
     visibility: hidden;
+    height: 0px;
+    width: 0px;
   }
 }
 @media only screen and (max-width: 728px) {
   .desktop {
     visibility: hidden;
+    height: 0px;
+    width: 0px;
   }
   .mobile {
     visibility: visible;
