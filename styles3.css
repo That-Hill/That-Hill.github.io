@@ -18,6 +18,79 @@ body {
   scrollbar-width: thin;
 }
 
+@media only screen and (max-width: 580px) {
+  .containment {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .containment iframe {
+    position: absolute;
+    display: block;
+    right: -66.6%;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .containment {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .containment iframe {
+    position: absolute;
+    display: block;
+    right: -33.3%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .containment {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .containment iframe {
+    position: absolute;
+    display: block;
+    right: -66.6%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .containment {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .containment iframe {
+    position: absolute;
+    display: block;
+    right: -99.9%;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .containment {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .containment iframe {
+    position: absolute;
+    display: block;
+    right: -133.2%;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .containment {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .containment iframe {
+    position: absolute;
+    display: block;
+    right: -166.5%;
+  }
+}
+
 .marquee {
   height: 55px;
 }
