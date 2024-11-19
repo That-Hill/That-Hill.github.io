@@ -17,18 +17,18 @@ body {
 
 @media only screen and (min-width: 728px) {
   .desktop {
-    display: visible;
+    visibility: visible;
   }
   .mobile {
-    display: hidden;
+    visibility: hidden;
   }
 }
 @media only screen and (max-width: 728px) {
   .desktop {
-    display: hidden;
+    visibility: hidden;
   }
   .mobile {
-    display: visible;
+    visibility: visible;
   }
 }
 @media only screen and (max-width: 970px) {
