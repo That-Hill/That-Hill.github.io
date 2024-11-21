@@ -638,7 +638,6 @@ p {
 }
 .stars {
   background: #fff;
-
   animation: stars 1.7s ease-in-out infinite;
 }
 @keyframes stars {
