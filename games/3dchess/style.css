@@ -25,11 +25,13 @@ scrollbar-width:thin;
 	position: absolute;
 	top: 3px;
 	right: 5%;
+	background-color: lightGray;
 }
 .games {
 	position: absolute;
 	top: 3px;
 	right: 10%;
+	background-color: lightGray;
 }
 
 /* maximum space to scale the scene uniformly */
