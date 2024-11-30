@@ -1,0 +1,103 @@
+/*/ D474designs | Modifications, and fixes by JOCV-III ///////
+// All Rights Reserved //////*/
+
+html { min-height: 100%; }
+body { height: 100%; background: #242424; }
+
+.menuBar {
+  align-self: center;
+  padding-top: 1%;
+  text-align: center;
+  padding-bottom: 2%;
+  background-color: black;
+  box-shadow: 0px 3px 5px white;
+  width: 33.3%;
+
+}
+.home {
+  background-color: aquamarine;
+  box-shadow: 0px -3px 5px white;
+}
+.games {
+  background-color: aquamarine;
+  box-shadow: 0px -3px 5px white;
+}
+.thankYou {
+  padding-top: 3px;
+  background-color: cyan;
+  box-shadow: 0px -3px 5px white;
+  padding-bottom: 3px;
+}
+.threeDchess {
+  background-color: powderblue;
+  box-shadow: 0px -3px 5px white;
+}
+.HWchess {
+  background-color: powderblue;
+  box-shadow: 0px -3px 5px white;
+}
+.ad {
+  padding-top: 3px;
+  background-color: cyan;
+  box-shadow: 0px -3px 5px white;
+  padding-bottom: 3px;
+  max-width: 66.6%;
+}
+
+.wrapper {
+  position: absolute; top: 24px; bottom: 0;
+	left: calc(50% - 400px); width: 800px;
+}
+.row {
+	-moz-user-select: none; -khtml-user-select: none;
+  -webkit-user-select: none; -o-user-select: none;
+  -ms-user-select: none; user-select: none;
+}
+.sq {
+	position: relative; display: inline-block;
+	height: 96px; width: 96px; margin: 0 -1px -9px;
+  border-radius: .5em; border-style: solid; border-width: 0 0 6px;
+}
+.sq:hover { cursor: pointer; }
+.sq:active { border-bottom-width: 2px; }
+.l { background-color: #a0c030; border-bottom-color: #485c00; }
+.l:hover { background-color: #acd438; }
+.d { background-color: #709024; border-bottom-color: #384c00; }
+.d:hover { background-color: #84aa2c; }
+.pc { position: absolute; border-style: solid; }
+.w {  background-color: #e4e0cc; border-color: #a09880; }
+.b {  background-color: #404448; border-color: #202224; }
+.pcTurn {
+  -moz-box-shadow: 0 4px 0 3px rgba(255,255,255,.4);
+   -webkit-box-shadow: 0 4px 0 3px rgba(255,255,255,.4);
+  box-shadow: 0 4px 0 3px rgba(255,255,255,.4);
+}
+.pcActive {
+  -moz-box-shadow: 0 4px 0 3px rgba(255,72,72,1);
+   -webkit-box-shadow: 0 4px 0 3px rgba(255,72,72,1);
+  box-shadow: 0 4px 0 3px rgba(255,72,72,1);
+}
+.pawn {
+  left: 24px; top: 20px; height: 48px; width: 52px;
+  border-radius: 100%; border-width: 0 0 8px;
+}
+.knight {
+  left: 16px; top: 8px; height: 64px; width: 64px;
+  border-radius: 100% 35% 35% 35%; border-width: 0 0 10px;
+}
+.bishop {
+  left: 24px; top: 8px; height: 64px; width: 48px;
+  border-radius: 100% 100% 30% 30%; border-width: 0 0 10px;
+}
+.rook {
+  left: 14px; top: 8px; height: 64px; width: 68px;
+  border-radius: 25%; border-width: 0 0 10px;
+}
+.queen {
+  left: 14px; top: 8px; height: 64px; width: 68px;
+  border-radius: 100% 100% 0 100%; border-width: 0 0 12px;
+}
+.king {
+  left: 14px; top: 8px; height: 64px; width: 68px;
+  border-radius: 100% 0 100% 100%; border-width: 0 0 12px;
+}
