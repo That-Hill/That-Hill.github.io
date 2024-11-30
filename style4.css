@@ -8,6 +8,7 @@
 /* Slideshow container */
 .slideshow-container {
   width: 250px;
+  min-height: 254px;
 }
 
 /* Hide the images by default */
