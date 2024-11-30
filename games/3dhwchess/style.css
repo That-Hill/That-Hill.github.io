@@ -44,6 +44,13 @@ body { height: 100%; background: #242424; }
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.textAd {
+  background-color: powderblue;
+  box-shadow: 0px -3px 5px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: 600;
+}
 .ad {
   padding-top: 3px;
   background-color: cyan;
