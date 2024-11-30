@@ -1,3 +1,6 @@
+/*/ D474designs | Modifications, and fixes by JOCV-III ///////
+// All Rights Reserved //////*/
+
 /**
  * @license
  * Copyright (c) 2023, Jeff Hlywa (jhlywa@gmail.com)

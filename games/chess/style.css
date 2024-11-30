@@ -1,3 +1,6 @@
+/*/ D474designs | Modifications, and fixes by JOCV-III ///////
+// All Rights Reserved //////*/
+
 /*
           BEST VIEWED IN FULL SCREEN :
 
@@ -27,6 +30,17 @@ button {
 }
 
 body:not(.animated) *:not(#panes) { transition: all 0s linear; }
+
+.home {
+background-color: white;
+box-shadow: 3px 3px 5px; black
+}
+.games {
+background-color: white;
+box-shadow: 3px 3px 5px; black
+}
+.menuBar {
+}
 
 #app {
   position: absolute;

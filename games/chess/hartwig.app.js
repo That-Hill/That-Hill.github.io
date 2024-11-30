@@ -1,3 +1,6 @@
+/*/ D474designs | Modifications, and fixes by JOCV-III ///////
+// All Rights Reserved //////*/
+
 /*
  * 3D Artwig chess set
  * @JulianGarnier
