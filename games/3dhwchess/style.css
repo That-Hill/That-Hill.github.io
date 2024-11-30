@@ -17,10 +17,14 @@ body { height: 100%; background: #242424; }
 .home {
   background-color: aquamarine;
   box-shadow: 0px -3px 5px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .games {
   background-color: aquamarine;
   box-shadow: 0px -3px 5px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .thankYou {
   padding-top: 3px;
@@ -31,10 +35,14 @@ body { height: 100%; background: #242424; }
 .threeDchess {
   background-color: powderblue;
   box-shadow: 0px -3px 5px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .HWchess {
   background-color: powderblue;
   box-shadow: 0px -3px 5px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .ad {
   padding-top: 3px;
